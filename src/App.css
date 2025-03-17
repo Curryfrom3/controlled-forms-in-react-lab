@@ -17,6 +17,43 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.bookshelfDiv {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.formDiv {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.bookCardsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bookCard {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
 
 @keyframes logo-spin {
   from {
